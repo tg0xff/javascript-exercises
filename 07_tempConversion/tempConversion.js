@@ -5,7 +5,11 @@ const convertToCelsius = function(fahrenheit) {
   return celsius;
 };
 
-const convertToFahrenheit = function() {
+const convertToFahrenheit = function(celsius) {
+  let fahrenheit = celsius * 9 / 5 + 32;
+  fahrenheit = fahrenheit.toFixed(1);
+  fahrenheit = +fahrenheit;
+  return fahrenheit;
 };
 
 // Do not edit below this line
