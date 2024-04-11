@@ -1,4 +1,9 @@
 const sumAll = function(start, end) {
+  if (start > end) {
+    let temp = start;
+    start = end;
+    end = temp;
+  }
   let sum = start;
   for (let i = start + 1; i <= end; i++) {
     sum += i;
