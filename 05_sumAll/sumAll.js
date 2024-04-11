@@ -1,5 +1,10 @@
-const sumAll = function(start, end) {
-  if (typeof start !== "number" || typeof end !== "number" || start < 0 || end < 0) {
+const sumAll = function (start, end) {
+  if (
+    typeof start !== "number" ||
+    typeof end !== "number" ||
+    start < 0 ||
+    end < 0
+  ) {
     return "ERROR";
   }
   if (start > end) {
