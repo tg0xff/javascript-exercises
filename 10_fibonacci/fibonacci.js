@@ -1,6 +1,6 @@
 const fibonacci = function(nthNumber) {
   if (nthNumber === 0) return 0;
-  if (nthNumber <= 0) return "OOPS";
+  if (nthNumber < 0) return "OOPS";
 
   let secuenceHolder = [1, 1];
   let indexToggle = 0;
