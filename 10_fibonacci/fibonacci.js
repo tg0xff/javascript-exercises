@@ -1,4 +1,5 @@
 const fibonacci = function(nthNumber) {
+  nthNumber = +nthNumber;
   if (nthNumber === 0) return 0;
   if (nthNumber < 0) return "OOPS";
 
